@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  background-color: #f0e1b1; /* optional: gives contrast to the container */
+}
+.container {
+  width: 90%;
+  max-width: 575px;
+  height: auto;
+  padding: 30px;
+  background-color: hwb(61 0% 0%);
+  box-shadow: 1px 2px 15px 10px rgb(30, 255, 79);
+  border-radius: 10px;
+}
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+#weight-guide {
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+#results {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 20px;
+  color: rgb(241, 241, 241);
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  background-color: #fff;
+  padding: 1px 3px;
+  border-radius: 8px;
+  color: #1d7e3a;
+  text-decoration: none;
+  border: 2px solid #212121;
+
+  font-size: 25px;
+}
+button:hover {
+  background-color: #09ff2a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+h1 {
+  padding-top: 25px;
+  color: white;
+  animation: ambulanceBlink 1s infinite;
+}
+
+@keyframes ambulanceBlink {
+  0% {
+    text-shadow: 0 0 10px red, 0 0 20px red;
+  }
+  50% {
+    text-shadow: 0 0 10px blue, 0 0 20px blue;
+  }
+  100% {
+    text-shadow: 0 0 10px red, 0 0 20px red;
+  }
+}
+
