@@ -2,7 +2,7 @@
 
 A simple and responsive Body Mass Index (BMI) calculator built with HTML, CSS, and JavaScript. This tool allows users to input their height and weight, then calculates and displays their BMI along with a health category—complete with color-coded feedback for better UX.
 
-🔗 [Live Demo] (//bmigenerate.netlify.app/)
+🔗 [Live Demo] (https://bmigenerate.netlify.app/)
 
 ## 🚀 Features
 
